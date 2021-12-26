@@ -1,0 +1,245 @@
+@media screen and (min-width: 960.1px) {
+  .slick-prev, .slick-next {
+    display: none!important;
+  }
+}
+
+@media screen and (max-width: 960px) and (min-width: 768px) {
+  .slick-prev, .slick-next {
+    display: none!important;
+  }
+  .fa-bars {
+    display: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 35px;
+  }
+  .header__slider {
+    height: 88vh;
+    padding: 200px 0 50px;
+  }
+  .btn {
+    margin: 20px 0 75px;
+  }
+  .block__video{
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 767.99px) and (min-width: 540px) {
+  .slick-prev, .slick-next {
+    display: none!important;
+  }
+  .fa-bars {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 35px;
+  }
+  .nav {
+    display: none;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .7s ease-in-out;
+  }
+  .navClass{
+    left: 0;
+  }
+  .nav li{
+    margin-top: 20px;
+  }
+  .close{
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 200;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .close:hover{
+    color: aqua;
+  }
+  .header__slider {
+    height: 88vh;
+    padding: 150px 0 50px;
+  }
+  .btn {
+    margin: 20px 0 75px;
+  }
+  .our{
+    flex-direction: column;
+  }
+  .logo2{
+    width: 100%;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  .our__text h2{
+    text-align: center;
+  }
+  .btn2{
+    margin: 0 auto;
+  }
+  .block__video{
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 539.99px) and (min-width: 320px) {
+  .slick-prev, .slick-next {
+    display: none!important;
+  }
+  .fa-bars {
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    font-size: 35px;
+  }
+  .nav {
+    display: none;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transition: all .7s ease-in-out;
+  }
+  .navClass{
+    left: 0;
+  }
+  .nav li{
+    margin-top: 20px;
+  }
+  .close{
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 200;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .close:hover{
+    color: aqua;
+  }
+  .header__slider {
+    height: 88vh;
+    padding: 150px 0 50px;
+  }
+
+  .block__slider h1{
+    font-size: 24px;
+  }
+  .block__slider h1::after{
+    margin: 15px auto 15px;
+  }
+  .block__slider p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .btn {
+    margin: 20px 0 75px;
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .our{
+    /* border: 2px solid red; */
+    flex-direction: column;
+    padding: 35px 0;
+  }
+  .logo2{
+    width: 100%;
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  .our__text h2{
+    text-align: center;
+  }
+  .btn2{
+    margin: 0 auto;
+  }
+  .block__video{
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (max-width: 911px){
+  .expertise__block{
+      width: 45%;
+  }
+  .expertise__block p{
+    width: 100%;
+  }
+}
+@media (max-width: 653px){
+  .expertise__blocks{
+     text-align: center;
+  }
+  .expertise__block img{
+    margin-left: 0;
+  }
+}
+@media (max-width: 958px){
+  .contact{
+    margin: 0 auto;
+  }
+}
+@media (max-width: 942px){
+  .registred{
+    margin: 0 auto;
+  }
+  .brends{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 451px){
+  .center{
+    margin: 0 auto;
+  }
+  .logo{
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 400px){
+  .registred{
+    margin: 0 auto;
+  }
+ 
+  .brends_images{
+    display: block;
+  }
+  .left_img{
+    margin: 0 auto;
+  }
+  .right{
+    margin: 0 auto;
+  }
+  
+}
